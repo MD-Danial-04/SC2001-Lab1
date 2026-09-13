@@ -9,7 +9,7 @@ __pycache__/
 .DS_Store
 
 # Generated data
-datasets
+/datasets
 
 # Generated raw experiment results
 results/raw/
