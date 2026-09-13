@@ -1,4 +1,9 @@
 import random
+from pathlib import Path
+
+# create datasets folder
+datasets = Path("datasets")
+datasets.mkdir(parents=True, exist_ok=True)
 
 # set increasing array sizes from 1k to 10 mil
 sizes = [
